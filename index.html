@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>问卷演示 · Survey Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">Q</span>
+      <div>
+        <strong>Survey Demo</strong>
+        <span class="badge">Demo Only</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#/" class="nav-link" data-route="/">首页</a>
+      <a href="#/survey" class="nav-link" data-route="/survey">填写问卷</a>
+      <a href="#/results" class="nav-link" data-route="/results">结果汇总</a>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="foot">
+    <span>纯前端演示 · 数据仅存本机浏览器 · 适合练手部署到 Vercel</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
